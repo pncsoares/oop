@@ -1,0 +1,26 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "author": "pncsoares@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "run:abstraction": "node --experimental-strip-types Abstraction/typescript.ts",
+    "run:encapsulation": "node Encapsulation/javascript.js",
+    "run:inheritance": "node Inheritance/javascript.js",
+    "run:polymorphism": "node Polymorphism/javascript.js",
+    "lint": "pnpm dlx biome lint --write .",
+    "check": "pnpm dlx biome check --write .",
+    "format": "pnpm dlx biome format --write ."
+  },
+  "dependencies": {
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/react": "^19.2.6"
+  }
+}

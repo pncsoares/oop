@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# Dependency directories
+node_modules/
+
+# Environment files (never commit these)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Build output
+dist/
+
+# Logs
+logs/
+*.log
+
+# Test coverage
+coverage/
+
+# Biome
+.biome/
+
+# Temporary files
+tmp/
+*.tmp
+*.swp
+*.swo
